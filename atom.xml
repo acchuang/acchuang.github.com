@@ -4,7 +4,7 @@
   <title><![CDATA[Bit By Bit]]></title>
   <link href="http://acchuang.github.io/atom.xml" rel="self"/>
   <link href="http://acchuang.github.io/"/>
-  <updated>2015-04-23T14:53:44+08:00</updated>
+  <updated>2015-04-23T14:57:35+08:00</updated>
   <id>http://acchuang.github.io/</id>
   <author>
     <name><![CDATA[Alan Huang]]></name>
@@ -18,9 +18,9 @@
     <link href="http://acchuang.github.io/blog/2015/04/22/post-title/"/>
     <updated>2015-04-22T17:00:06+08:00</updated>
     <id>http://acchuang.github.io/blog/2015/04/22/post-title</id>
-    <content type="html"><![CDATA[<h3>Hello World</br></h3>
+    <content type="html"><![CDATA[<h4>Hi this is my first blog post on github using Octopress.</h4>
 
-<h4>Hi this is my first blog post on github using Octopress.</h4>
+<p><img src="https://igcdn-photos-h-a.akamaihd.net/hphotos-ak-xfp1/t51.2885-15/10624009_1375509602750423_867715174_n.jpg" alt="Instagram" /></p>
 ]]></content>
   </entry>
   

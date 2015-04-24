@@ -4,7 +4,7 @@
   <title><![CDATA[Bit By Bit]]></title>
   <link href="http://acchuang.github.io/atom.xml" rel="self"/>
   <link href="http://acchuang.github.io/"/>
-  <updated>2015-04-24T16:42:53+08:00</updated>
+  <updated>2015-04-24T16:50:30+08:00</updated>
   <id>http://acchuang.github.io/</id>
   <author>
     <name><![CDATA[Alan Huang]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Tools]]></title>
+    <link href="http://acchuang.github.io/blog/2015/04/24/tools/"/>
+    <updated>2015-04-24T16:49:16+08:00</updated>
+    <id>http://acchuang.github.io/blog/2015/04/24/tools</id>
+    <content type="html"><![CDATA[<h3>Useful tools</h3>
+
+<ul>
+<li><img src="http://markdown.tw/#list" alt="Markdown Help in Chinese" /></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Markdown Help List]]></title>
+    <link href="http://acchuang.github.io/blog/2015/04/24/markdown-help-list/"/>
+    <updated>2015-04-24T00:00:00+08:00</updated>
+    <id>http://acchuang.github.io/blog/2015/04/24/markdown-help-list</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Hello World]]></title>

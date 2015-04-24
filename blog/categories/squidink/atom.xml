@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Bit By Bit]]></title>
-  <link href="http://acchuang.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Squidink | Bit By Bit]]></title>
+  <link href="http://acchuang.github.io/blog/categories/squidink/atom.xml" rel="self"/>
   <link href="http://acchuang.github.io/"/>
   <updated>2015-04-24T10:03:41+08:00</updated>
   <id>http://acchuang.github.io/</id>
@@ -21,17 +21,6 @@
     <content type="html"><![CDATA[<p>SquidInk Co-Pilot 128 now with UV curing ink and system provides great result and instant dry capability to widen the market for industrial marking.<p></p>
 
 <p><img src="https://www.dropbox.com/s/7rs6l3ftqej9it1/6098.jpg" alt="Sample for SquidInk Co-Pilot with UV curing Ink &amp; System" /></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hello World]]></title>
-    <link href="http://acchuang.github.io/blog/2015/04/22/post-title/"/>
-    <updated>2015-04-22T17:00:06+08:00</updated>
-    <id>http://acchuang.github.io/blog/2015/04/22/post-title</id>
-    <content type="html"><![CDATA[<h4>Hi this is my first blog post on github using Octopress.</h4>
-
-<p><img src="https://igcdn-photos-h-a.akamaihd.net/hphotos-ak-xfp1/t51.2885-15/10624009_1375509602750423_867715174_n.jpg" alt="Instagram" /></p>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Bit By Bit]]></title>
   <link href="http://acchuang.github.io/atom.xml" rel="self"/>
   <link href="http://acchuang.github.io/"/>
-  <updated>2015-04-29T13:53:11+08:00</updated>
+  <updated>2015-04-29T14:02:51+08:00</updated>
   <id>http://acchuang.github.io/</id>
   <author>
     <name><![CDATA[Alan Huang]]></name>
@@ -22,6 +22,8 @@
 
 <ul>
 <li><a href="http://markdown.tw/#list">Markdown Help in Chinese</a></li>
+<li><a href="http://octopress.org/docs/">Octopress</a></li>
+<li><a href="https://help.github.com/">GitHub</a></li>
 </ul>
 
 ]]></content>

@@ -4,7 +4,7 @@
   <title><![CDATA[Bit By Bit]]></title>
   <link href="http://acchuang.github.io/atom.xml" rel="self"/>
   <link href="http://acchuang.github.io/"/>
-  <updated>2015-06-11T15:12:29+08:00</updated>
+  <updated>2015-06-11T15:37:22+08:00</updated>
   <id>http://acchuang.github.io/</id>
   <author>
     <name><![CDATA[Alan Huang]]></name>
@@ -12,6 +12,33 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress Rake Command Reference]]></title>
+    <link href="http://acchuang.github.io/blog/2015/06/11/octopress-rake-command-reference/"/>
+    <updated>2015-06-11T15:36:31+08:00</updated>
+    <id>http://acchuang.github.io/blog/2015/06/11/octopress-rake-command-reference</id>
+    <content type="html"><![CDATA[<p>rake clean                     # Clean out caches: .pygments-cache, .gist-cache, .sass-cache<br/>
+rake copydot[source,dest]      # copy dot files for deployment<br/>
+rake deploy                    # Default deploy task<br/>
+rake gen_deploy                # Generate website and deploy<br/>
+rake generate                  # Generate jekyll site<br/>
+rake install[theme]            # Initial setup for Octopress: copies the default theme into the path of Jekyll&rsquo;s generator.<br/>
+rake integrate                 # Move all stashed posts back into the posts directory, ready for site generation.<br/>
+rake isolate[filename]         # Move all other posts than the one currently being worked on to a temporary stash location (stas&hellip;<br/>
+rake list                      # list tasks<br/>
+rake new_page[filename]        # Create a new page in source/(filename)/index.markdown<br/>
+rake new_post[title]           # Begin a new post in source/<em>posts<br/>
+rake preview                   # preview the site in a web browser<br/>
+rake push                      # deploy public directory to github pages<br/>
+rake rsync                     # Deploy website via rsync<br/>
+rake set_root_dir[dir]         # Update configurations to support publishing to root or sub directory<br/>
+rake setup_github_pages[repo]  # Set up </em>deploy folder and deploy branch for Github Pages deployment<br/>
+rake update_source[theme]      # Move source to source.old, install source theme updates, replace source/_includes/navigation.ht&hellip;<br/>
+rake update_style[theme]       # Move sass to sass.old, install sass theme updates, replace sass/custom with sass.old/custom<br/>
+rake watch                     # Watch the site and regenerate when it changes</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Simple Voting System]]></title>

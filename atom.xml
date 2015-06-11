@@ -4,7 +4,7 @@
   <title><![CDATA[Bit By Bit]]></title>
   <link href="http://acchuang.github.io/atom.xml" rel="self"/>
   <link href="http://acchuang.github.io/"/>
-  <updated>2015-06-11T15:39:51+08:00</updated>
+  <updated>2015-06-11T15:43:21+08:00</updated>
   <id>http://acchuang.github.io/</id>
   <author>
     <name><![CDATA[Alan Huang]]></name>
@@ -18,7 +18,10 @@
     <link href="http://acchuang.github.io/blog/2015/06/11/octopress-rake-command-reference/"/>
     <updated>2015-06-11T15:36:31+08:00</updated>
     <id>http://acchuang.github.io/blog/2015/06/11/octopress-rake-command-reference</id>
-    <content type="html"><![CDATA[<p>&lsquo;&rsquo;&lsquo; rake clean &rsquo;&lsquo;&rsquo;                    # Clean out caches: .pygments-cache, .gist-cache, .sass-cache</p>
+    <content type="html"><![CDATA[<pre><code>rake clean</code></pre>
+
+
+<p>                    # Clean out caches: .pygments-cache, .gist-cache, .sass-cache</p>
 
 <p>&lsquo;&rsquo;&lsquo;rake copydot[source,dest]&rsquo;&lsquo;&rsquo;      # copy dot files for deployment<br/>
 rake deploy                    # Default deploy task<br/>

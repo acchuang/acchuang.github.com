@@ -9,7 +9,8 @@
   <meta name="author" content="Alan Huang">
 
   
-  <meta name="description" content="rake clean # Clean out caches: .pygments-cache, .gist-cache, .sass-cache &lsquo;&rsquo;&lsquo;rake copydot[source,dest]&rsquo;&lsquo;&rsquo; # copy &hellip;">
+  <meta name="description" content="rake clean # Clean out caches: .pygments-cache, .gist-cache, .sass-cache rake copydot[source,dest] # copy dot files for deployment
+rake deploy # &hellip;">
   
 
   <meta name="HandheldFriendly" content="True">
@@ -113,7 +114,10 @@
 
 <p>                    # Clean out caches: .pygments-cache, .gist-cache, .sass-cache</p>
 
-<p>&lsquo;&rsquo;&lsquo;rake copydot[source,dest]&rsquo;&lsquo;&rsquo;      # copy dot files for deployment<br/>
+<pre><code>rake copydot[source,dest]</code></pre>
+
+
+<p>     # copy dot files for deployment<br/>
 rake deploy                    # Default deploy task<br/>
 rake gen_deploy                # Generate website and deploy<br/>
 rake generate                  # Generate jekyll site<br/>

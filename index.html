@@ -120,29 +120,97 @@
       <div class="entry-content"><pre><code>rake clean</code></pre>
 
 
-<p>                    # Clean out caches: .pygments-cache, .gist-cache, .sass-cache</p>
+<p> # Clean out caches: .pygments-cache, .gist-cache, .sass-cache</p>
 
 <pre><code>rake copydot[source,dest]</code></pre>
 
 
-<p>     # copy dot files for deployment<br/>
-rake deploy                    # Default deploy task<br/>
-rake gen_deploy                # Generate website and deploy<br/>
-rake generate                  # Generate jekyll site<br/>
-rake install[theme]            # Initial setup for Octopress: copies the default theme into the path of Jekyll&rsquo;s generator.<br/>
-rake integrate                 # Move all stashed posts back into the posts directory, ready for site generation.<br/>
-rake isolate[filename]         # Move all other posts than the one currently being worked on to a temporary stash location (stas&hellip;<br/>
-rake list                      # list tasks<br/>
-rake new_page[filename]        # Create a new page in source/(filename)/index.markdown<br/>
-rake new_post[title]           # Begin a new post in source/<em>posts<br/>
-rake preview                   # preview the site in a web browser<br/>
-rake push                      # deploy public directory to github pages<br/>
-rake rsync                     # Deploy website via rsync<br/>
-rake set_root_dir[dir]         # Update configurations to support publishing to root or sub directory<br/>
-rake setup_github_pages[repo]  # Set up </em>deploy folder and deploy branch for Github Pages deployment<br/>
-rake update_source[theme]      # Move source to source.old, install source theme updates, replace source/_includes/navigation.ht&hellip;<br/>
-rake update_style[theme]       # Move sass to sass.old, install sass theme updates, replace sass/custom with sass.old/custom<br/>
-rake watch                     # Watch the site and regenerate when it changes</p>
+<p> # copy dot files for deployment</p>
+
+<pre><code>rake deploy </code></pre>
+
+
+<p> # Default deploy task</p>
+
+<pre><code>rake gen_deploy</code></pre>
+
+
+<h1>Generate website and deploy</h1>
+
+<pre><code>rake generate </code></pre>
+
+
+<h1>Generate jekyll site</h1>
+
+<pre><code>rake install[theme]</code></pre>
+
+
+<h1>Initial setup for Octopress: copies the default theme into the path of Jekyll&rsquo;s generator.</h1>
+
+<pre><code>rake integrate </code></pre>
+
+
+<h1>Move all stashed posts back into the posts directory, ready for site generation.</h1>
+
+<pre><code>rake isolate[filename]</code></pre>
+
+
+<h1>Move all other posts than the one currently being worked on to a temporary stash location (stas&hellip;</h1>
+
+<pre><code>rake list</code></pre>
+
+
+<h1>list tasks</h1>
+
+<pre><code>rake new_page[filename]</code></pre>
+
+
+<h1>Create a new page in source/(filename)/index.markdown</h1>
+
+<pre><code>rake new_post[title]</code></pre>
+
+
+<h1>Begin a new post in source/_posts</h1>
+
+<pre><code>rake preview </code></pre>
+
+
+<p> # preview the site in a web browser</p>
+
+<pre><code>rake push</code></pre>
+
+
+<h1>deploy public directory to github pages</h1>
+
+<pre><code>rake rsync</code></pre>
+
+
+<h1>Deploy website via rsync</h1>
+
+<pre><code>rake set_root_dir[dir]</code></pre>
+
+
+<h1>Update configurations to support publishing to root or sub directory</h1>
+
+<pre><code>rake setup_github_pages[repo]</code></pre>
+
+
+<h1>Set up _deploy folder and deploy branch for Github Pages deployment</h1>
+
+<pre><code>rake update_source[theme]</code></pre>
+
+
+<h1>Move source to source.old, install source theme updates, replace source/_includes/navigation.ht&hellip;</h1>
+
+<pre><code>rake update_style[theme]</code></pre>
+
+
+<h1>Move sass to sass.old, install sass theme updates, replace sass/custom with sass.old/custom</h1>
+
+<pre><code>rake watch</code></pre>
+
+
+<h1>Watch the site and regenerate when it changes</h1>
 </div>
       
       

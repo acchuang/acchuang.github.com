@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Bit By Bit]]></title>
-  <link href="http://acchuang.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Octopress | Bit By Bit]]></title>
+  <link href="http://acchuang.github.io/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://acchuang.github.io/"/>
   <updated>2015-06-12T21:24:47+08:00</updated>
   <id>http://acchuang.github.io/</id>
@@ -12,15 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[RandomShotOfMine]]></title>
-    <link href="http://acchuang.github.io/blog/2015/06/12/randomshutofmine/"/>
-    <updated>2015-06-12T21:16:04+08:00</updated>
-    <id>http://acchuang.github.io/blog/2015/06/12/randomshutofmine</id>
-    <content type="html"><![CDATA[<p><img src="https://c4.staticflickr.com/8/7764/17153934689_b3fc604841_z.jpg" alt="Flickr" /></p>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[Octopress Rake Command Reference]]></title>
@@ -121,42 +112,6 @@
 
 
 <p> # Watch the site and regenerate when it changes</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Simple Voting System]]></title>
-    <link href="http://acchuang.github.io/blog/2015/06/11/simple-voting-system/"/>
-    <updated>2015-06-11T15:09:47+08:00</updated>
-    <id>http://acchuang.github.io/blog/2015/06/11/simple-voting-system</id>
-    <content type="html"><![CDATA[<p>Simple Voting System [<a href="http://salty-cliffs-4222.herokuapp.com/">http://salty-cliffs-4222.herokuapp.com/</a>]</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Tools]]></title>
-    <link href="http://acchuang.github.io/blog/2015/04/24/tools/"/>
-    <updated>2015-04-24T16:49:16+08:00</updated>
-    <id>http://acchuang.github.io/blog/2015/04/24/tools</id>
-    <content type="html"><![CDATA[<h3>Useful tools</h3>
-
-<ul>
-<li><a href="http://markdown.tw/#list">Markdown Help in Chinese</a></li>
-<li><a href="http://octopress.org/docs/">Octopress</a></li>
-<li><a href="https://help.github.com/">GitHub</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hello World]]></title>
-    <link href="http://acchuang.github.io/blog/2015/04/22/post-title/"/>
-    <updated>2015-04-22T17:00:06+08:00</updated>
-    <id>http://acchuang.github.io/blog/2015/04/22/post-title</id>
-    <content type="html"><![CDATA[<h4>Hi this is my first blog post on github using Octopress.</h4>
-
-<p><img src="https://igcdn-photos-h-a.akamaihd.net/hphotos-ak-xfp1/t51.2885-15/10624009_1375509602750423_867715174_n.jpg" alt="Instagram" /></p>
 ]]></content>
   </entry>
   

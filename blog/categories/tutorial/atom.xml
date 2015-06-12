@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Tutorial | Bit By Bit]]></title>
+  <link href="http://acchuang.github.io/blog/categories/tutorial/atom.xml" rel="self"/>
+  <link href="http://acchuang.github.io/"/>
+  <updated>2015-06-12T21:24:47+08:00</updated>
+  <id>http://acchuang.github.io/</id>
+  <author>
+    <name><![CDATA[Alan Huang]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Simple Voting System]]></title>
+    <link href="http://acchuang.github.io/blog/2015/06/11/simple-voting-system/"/>
+    <updated>2015-06-11T15:09:47+08:00</updated>
+    <id>http://acchuang.github.io/blog/2015/06/11/simple-voting-system</id>
+    <content type="html"><![CDATA[<p>Simple Voting System [<a href="http://salty-cliffs-4222.herokuapp.com/">http://salty-cliffs-4222.herokuapp.com/</a>]</p>
+]]></content>
+  </entry>
+  
+</feed>

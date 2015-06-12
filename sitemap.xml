@@ -32,4 +32,16 @@
   <url>
     <loc>http://acchuang.github.io/about/</loc>
   </url>
+  <url>
+    <loc>http://acchuang.github.io/blog/categories/ror/</loc>
+  </url>
+  <url>
+    <loc>http://acchuang.github.io/blog/categories/tutorial/</loc>
+  </url>
+  <url>
+    <loc>http://acchuang.github.io/blog/categories/octopress/</loc>
+  </url>
+  <url>
+    <loc>http://acchuang.github.io/blog/categories/photo/</loc>
+  </url>
 </urlset>

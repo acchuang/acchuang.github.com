@@ -4,7 +4,7 @@
   <title><![CDATA[Bit By Bit]]></title>
   <link href="http://acchuang.github.io/atom.xml" rel="self"/>
   <link href="http://acchuang.github.io/"/>
-  <updated>2015-06-11T15:51:53+08:00</updated>
+  <updated>2015-06-12T21:17:25+08:00</updated>
   <id>http://acchuang.github.io/</id>
   <author>
     <name><![CDATA[Alan Huang]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[RandomShutOfMine]]></title>
+    <link href="http://acchuang.github.io/blog/2015/06/12/randomshutofmine/"/>
+    <updated>2015-06-12T21:16:04+08:00</updated>
+    <id>http://acchuang.github.io/blog/2015/06/12/randomshutofmine</id>
+    <content type="html"><![CDATA[<p><img src="https://flic.kr/p/s8Qp9D" alt="Flickr" /></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Octopress Rake Command Reference]]></title>

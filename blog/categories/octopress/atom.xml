@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Octopress | Bit By Bit]]></title>
   <link href="http://acchuang.github.io/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://acchuang.github.io/"/>
-  <updated>2015-06-18T16:03:19+08:00</updated>
+  <updated>2015-06-18T16:04:54+08:00</updated>
   <id>http://acchuang.github.io/</id>
   <author>
     <name><![CDATA[Alan Huang]]></name>
@@ -22,7 +22,31 @@
 
 <ol>
 <li>首先新增一rss.xml到source中
-{% gist 2896245 [rss.xml] %}</li>
+<div><script src='https://gist.github.com/2896245.js?file=rss.xml'></script>
+<noscript><pre><code>---
+layout: nil
+---
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;rss xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; version=&quot;2.0&quot;&gt;
+  &lt;channel&gt;
+    &lt;atom:link rel=&quot;hub&quot; href=&quot;http://pubsubhubbub.appspot.com&quot; xmlns:atom=&quot;http://www.w3.org/2005/Atom&quot;/&gt;
+    &lt;title&gt;{{ site.title | xml_escape }}&lt;/title&gt;
+    &lt;generator&gt;Octopress&lt;/generator&gt;
+    &lt;link&gt;{{ site.url }}&lt;/link&gt;
+
+    {% for post in site.posts limit: 20 %}
+    &lt;item&gt;
+      &lt;title&gt;{{ post.title | xml_escape }}&lt;/title&gt;
+      &lt;description&gt;{{ post.content | expand_urls: site.url | cdata_escape }}&lt;/description&gt;
+      &lt;link&gt;{{ site.url }}{{ post.url }}&lt;/link&gt;
+      &lt;pubDate&gt;{{ post.date | date_to_xmlschema }}&lt;/pubDate&gt;
+      &lt;guid&gt;{{ site.url }}{{ post.id }}&lt;/guid&gt;
+    &lt;/item&gt;
+    {% endfor %}
+  &lt;/channel&gt;
+&lt;/rss&gt;
+</code></pre></noscript></div>
+</li>
 </ol>
 
 

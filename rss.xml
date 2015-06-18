@@ -9,59 +9,59 @@
     
     <item>
       <title>Octopress to Wordpress</title>
-      <description><p>找到一個將Octopress的文章轉移到Wordpress的方法(使用python script)</p>
+      <description><p>發現一個將Octopress的文章轉移到Wordpress的方法(使用python script)</p>
 
-<ol>
-<li><p>首先新增一rss.xml到source中</p>
+<p>*1. 首先新增一rss.xml到source中</p>
 
-<pre><code> ---
- layout: nil
- ---
- &lt;?xml version="1.0" encoding="UTF-8"?&gt;
- &lt;rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"&gt;
- &lt;channel&gt;
-     &lt;atom:link rel="hub" href="http://pubsubhubbub.appspot.com" xmlns:atom="http://www.w3.org/2005/Atom"/&gt;
-     &lt;title&gt;Bit By Bit&lt;/title&gt;
-     &lt;generator&gt;Octopress&lt;/generator&gt;
-     &lt;link&gt;http://acchuang.github.io&lt;/link&gt;
-
-
-     &lt;item&gt;
-     &lt;title&gt;Octopress to Wordpress&lt;/title&gt;
-     &lt;description&gt;找到一個將Octopress的文章轉移到Wordpress的方法(使用python script)
-</code></pre></li>
-<li><p>首先新增一rss.xml到source中</p>
-
-<pre><code> ---
- layout: nil
- ---
- &lt;?xml version="1.0" encoding="UTF-8"?&gt;
- &lt;rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"&gt;
- &lt;channel&gt;
-     &lt;atom:link rel="hub" href="http://pubsubhubbub.appspot.com" xmlns:atom="http://www.w3.org/2005/Atom"/&gt;
-     &lt;title&gt;{{ site.title | xml_escape }}&lt;/title&gt;
-     &lt;generator&gt;Octopress&lt;/generator&gt;
-     &lt;link&gt;{{ site.url }}&lt;/link&gt;
-
-     {% for post in site.posts limit: 20 %}
-     &lt;item&gt;
-     &lt;title&gt;{{ post.title | xml_escape }}&lt;/title&gt;
-     &lt;description&gt;{{ post.content | expand_urls: site.url | cdata_escape }}&lt;/description&gt;
-     &lt;link&gt;{{ site.url }}{{ post.url }}&lt;/link&gt;
-     &lt;pubDate&gt;{{ post.date | date_to_xmlschema }}&lt;/pubDate&gt;
-     &lt;guid&gt;{{ site.url }}{{ post.id }}&lt;/guid&gt;
-     &lt;/item&gt;
-     {% endfor %}
- &lt;/channel&gt;
- &lt;/rss&gt;
-</code></pre></li>
-</ol>
+<pre><code>    ---
+    layout: nil
+    ---
+    &lt;?xml version="1.0" encoding="UTF-8"?&gt;
+    &lt;rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"&gt;
+    &lt;channel&gt;
+        &lt;atom:link rel="hub" href="http://pubsubhubbub.appspot.com" xmlns:atom="http://www.w3.org/2005/Atom"/&gt;
+        &lt;title&gt;Bit By Bit&lt;/title&gt;
+        &lt;generator&gt;Octopress&lt;/generator&gt;
+        &lt;link&gt;http://acchuang.github.io&lt;/link&gt;
 
 
-<p>原出處:<a href="http://5minutenpause.com/blog/2012/06/08/rss-finally-working-again/">http://5minutenpause.com/blog/2012/06/08/rss-finally-working-again/</a>[<a href="https://gist.githubusercontent.com/5minpause/2896245/raw/rss.xml">https://gist.githubusercontent.com/5minpause/2896245/raw/rss.xml</a>]
-2. Octopress使用的是atom.xml 所以要修改_config.yml中
-    subscribe_rss:&ldquo;/rss.xml&rdquo;
-3. 在Terminal中執行jekyll generate然後就會將Octopress中的文章由atom.xml轉成到public/rss.xml.xml，然後再由Wordpress後台Import rss就可以了！</description>
+        &lt;item&gt;
+        &lt;title&gt;Octopress to Wordpress&lt;/title&gt;
+        &lt;description&gt;發現一個將Octopress的文章轉移到Wordpress的方法(使用python script)
+</code></pre>
+
+<p>*1. 首先新增一rss.xml到source中</p>
+
+<pre><code>    ---
+    layout: nil
+    ---
+    &lt;?xml version="1.0" encoding="UTF-8"?&gt;
+    &lt;rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"&gt;
+    &lt;channel&gt;
+        &lt;atom:link rel="hub" href="http://pubsubhubbub.appspot.com" xmlns:atom="http://www.w3.org/2005/Atom"/&gt;
+        &lt;title&gt;{{ site.title | xml_escape }}&lt;/title&gt;
+        &lt;generator&gt;Octopress&lt;/generator&gt;
+        &lt;link&gt;{{ site.url }}&lt;/link&gt;
+
+        {% for post in site.posts limit: 20 %}
+        &lt;item&gt;
+        &lt;title&gt;{{ post.title | xml_escape }}&lt;/title&gt;
+        &lt;description&gt;{{ post.content | expand_urls: site.url | cdata_escape }}&lt;/description&gt;
+        &lt;link&gt;{{ site.url }}{{ post.url }}&lt;/link&gt;
+        &lt;pubDate&gt;{{ post.date | date_to_xmlschema }}&lt;/pubDate&gt;
+        &lt;guid&gt;{{ site.url }}{{ post.id }}&lt;/guid&gt;
+        &lt;/item&gt;
+        {% endfor %}
+    &lt;/channel&gt;
+    &lt;/rss&gt;
+</code></pre>
+
+<blockquote><p>原出處:<a href="http://5minutenpause.com/blog/2012/06/08/rss-finally-working-again/">http://5minutenpause.com/blog/2012/06/08/rss-finally-working-again/</a>[<a href="https://gist.githubusercontent.com/5minpause/2896245/raw/rss.xml">https://gist.githubusercontent.com/5minpause/2896245/raw/rss.xml</a>]</p></blockquote>
+
+<p>*2. Octopress使用的是atom.xml 所以要修改_config.yml中
+    subscribe_rss:&ldquo;/rss.xml&rdquo;</p>
+
+<p>*3. 在Terminal中執行jekyll generate然後就會將Octopress中的文章由atom.xml轉成到public/rss.xml.xml，然後再由Wordpress後台Import rss就可以了！</description>
             <link><a href="http://acchuang.github.io/blog/2015/06/18/octopress-to-wordpress/">http://acchuang.github.io/blog/2015/06/18/octopress-to-wordpress/</a></link>
             <pubDate>2015-06-18T15:09:14+08:00</pubDate>
             <guid><a href="http://acchuang.github.io/blog/2015/06/18/octopress-to-wordpress">http://acchuang.github.io/blog/2015/06/18/octopress-to-wordpress</a></guid>
@@ -319,10 +319,12 @@
     &lt;/rss&gt;
 </code></pre>
 
-<p>原出處:<a href="http://5minutenpause.com/blog/2012/06/08/rss-finally-working-again/">http://5minutenpause.com/blog/2012/06/08/rss-finally-working-again/</a>[<a href="https://gist.githubusercontent.com/5minpause/2896245/raw/rss.xml">https://gist.githubusercontent.com/5minpause/2896245/raw/rss.xml</a>]
-2. Octopress使用的是atom.xml 所以要修改_config.yml中
-    subscribe_rss:&ldquo;/rss.xml&rdquo;
-3. 在Terminal中執行jekyll generate然後就會將Octopress中的文章由atom.xml轉成到public/rss.xml.xml，然後再由Wordpress後台Import rss就可以了！</p>
+<blockquote><p>原出處:<a href="http://5minutenpause.com/blog/2012/06/08/rss-finally-working-again/">http://5minutenpause.com/blog/2012/06/08/rss-finally-working-again/</a>[<a href="https://gist.githubusercontent.com/5minpause/2896245/raw/rss.xml">https://gist.githubusercontent.com/5minpause/2896245/raw/rss.xml</a>]</p></blockquote>
+
+<p>*2. Octopress使用的是atom.xml 所以要修改_config.yml中
+    subscribe_rss:&ldquo;/rss.xml&rdquo;</p>
+
+<p>*3. 在Terminal中執行jekyll generate然後就會將Octopress中的文章由atom.xml轉成到public/rss.xml.xml，然後再由Wordpress後台Import rss就可以了！</p>
 </description>
       <link>http://acchuang.github.io/blog/2015/06/18/octopress-to-wordpress/</link>
       <pubDate>2015-06-18T15:09:14+08:00</pubDate>

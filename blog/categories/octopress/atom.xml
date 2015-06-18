@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Octopress | Bit By Bit]]></title>
   <link href="http://acchuang.github.io/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://acchuang.github.io/"/>
-  <updated>2015-06-18T16:04:54+08:00</updated>
+  <updated>2015-06-18T16:07:53+08:00</updated>
   <id>http://acchuang.github.io/</id>
   <author>
     <name><![CDATA[Alan Huang]]></name>
@@ -21,7 +21,7 @@
     <content type="html"><![CDATA[<p>發現一個將Octopress的文章轉移到Wordpress的方法(使用python script)<p></p>
 
 <ol>
-<li>首先新增一rss.xml到source中
+<li>首先參考並新增一 rss.xml到source中(修改Line 7: href=&ldquo;自己的Octopress 網址&rdquo;)
 <div><script src='https://gist.github.com/2896245.js?file=rss.xml'></script>
 <noscript><pre><code>---
 layout: nil

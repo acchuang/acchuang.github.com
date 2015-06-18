@@ -4,7 +4,7 @@
   <title><![CDATA[Bit By Bit]]></title>
   <link href="http://acchuang.github.io/atom.xml" rel="self"/>
   <link href="http://acchuang.github.io/"/>
-  <updated>2015-06-18T15:20:00+08:00</updated>
+  <updated>2015-06-18T15:23:03+08:00</updated>
   <id>http://acchuang.github.io/</id>
   <author>
     <name><![CDATA[Alan Huang]]></name>
@@ -42,6 +42,7 @@ layout: nil
       <description>找到一個將Octopress的文章轉移到Wordpress的方式(使用python script)
 
 1. 首先新增一rss.xml到source中
+
 <pre><code>---
 layout: nil
 ---
@@ -65,6 +66,7 @@ layout: nil
   </channel>
 </rss>
 </code></pre>
+
 原出處:http://5minutenpause.com/blog/2012/06/08/rss-finally-working-again/[https://gist.githubusercontent.com/5minpause/2896245/raw/rss.xml]
 
 2. Octopress使用的是atom.xml 所以要修改_config.yml中

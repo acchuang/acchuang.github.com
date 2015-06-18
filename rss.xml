@@ -9,7 +9,7 @@
     
     <item>
       <title>Octopress to Wordpress</title>
-      <description><p>發現一個將Octopress的文章轉移到Wordpress的方法(使用python script)</p>
+      <description><p>發現一個將Octopress的文章轉移到Wordpress的方法(使用python script)<p></p>
 
 <ol>
 <li><p>首先新增一rss.xml到source中
@@ -26,7 +26,7 @@
 
 <pre><code>     &lt;item&gt;
      &lt;title&gt;Octopress to Wordpress&lt;/title&gt;
-     &lt;description&gt;發現一個將Octopress的文章轉移到Wordpress的方法(使用python script)
+     &lt;description&gt;發現一個將Octopress的文章轉移到Wordpress的方法(使用python script)&lt;p&gt;
 </code></pre></li>
 <li><p>首先新增一rss.xml到source中
      &mdash;
@@ -55,214 +55,110 @@
 </ol>
 
 
-<blockquote><p>原出處:<a href="http://5minutenpause.com/blog/2012/06/08/rss-finally-working-again/">http://5minutenpause.com/blog/2012/06/08/rss-finally-working-again/</a>[<a href="https://gist.githubusercontent.com/5minpause/2896245/raw/rss.xml">https://gist.githubusercontent.com/5minpause/2896245/raw/rss.xml</a>]
-2. Octopress使用的是atom.xml 所以要修改_config.yml中subscribe_rss:&ldquo;/rss.xml&rdquo;
-3. 在Terminal中執行jekyll generate然後就會將Octopress中的文章由atom.xml轉成到public/rss.xml.xml，然後再由Wordpress後台Import rss就可以了！</description>
-            <link><a href="http://acchuang.github.io/blog/2015/06/18/octopress-to-wordpress/">http://acchuang.github.io/blog/2015/06/18/octopress-to-wordpress/</a></link>
-            <pubDate>2015-06-18T15:09:14+08:00</pubDate>
-            <guid><a href="http://acchuang.github.io/blog/2015/06/18/octopress-to-wordpress">http://acchuang.github.io/blog/2015/06/18/octopress-to-wordpress</a></guid>
-            </item></p></blockquote>
+<p><p></p>
 
-<pre><code>        &lt;item&gt;
-        &lt;title&gt;RandomShotOfMine&lt;/title&gt;
-        &lt;description&gt;&lt;p&gt;&lt;img src="https://c4.staticflickr.com/8/7764/17153934689_b3fc604841_z.jpg" alt="Flickr" /&gt;&lt;/p&gt;
+<p>原出處:<a href="http://5minutenpause.com/blog/2012/06/08/rss-finally-working-again/">http://5minutenpause.com/blog/2012/06/08/rss-finally-working-again/</a>[<a href="https://gist.githubusercontent.com/5minpause/2896245/raw/rss.xml">https://gist.githubusercontent.com/5minpause/2896245/raw/rss.xml</a>]<p></p>
+
+<ol>
+<li><p>Octopress使用的是atom.xml 所以要修改_config.yml中subscribe_rss:&ldquo;/rss.xml&rdquo; <p></p></li>
+<li><p>在Terminal中執行jekyll generate然後就會將Octopress中的文章由atom.xml轉成到public/rss.xml.xml，然後再由Wordpress後台Import rss就可以了！</description>
+         <link><a href="http://acchuang.github.io/blog/2015/06/18/octopress-to-wordpress/">http://acchuang.github.io/blog/2015/06/18/octopress-to-wordpress/</a></link>
+         <pubDate>2015-06-18T15:09:14+08:00</pubDate>
+         <guid><a href="http://acchuang.github.io/blog/2015/06/18/octopress-to-wordpress">http://acchuang.github.io/blog/2015/06/18/octopress-to-wordpress</a></guid>
+         </item></p>
+
+<pre><code>     &lt;item&gt;
+     &lt;title&gt;RandomShotOfMine&lt;/title&gt;
+     &lt;description&gt;&lt;p&gt;&lt;img src="https://c4.staticflickr.com/8/7764/17153934689_b3fc604841_z.jpg" alt="Flickr" /&gt;&lt;/p&gt;
 </code></pre>
 
 <p></description>
-            <link><a href="http://acchuang.github.io/blog/2015/06/12/randomshutofmine/">http://acchuang.github.io/blog/2015/06/12/randomshutofmine/</a></link>
-            <pubDate>2015-06-12T21:16:04+08:00</pubDate>
-            <guid><a href="http://acchuang.github.io/blog/2015/06/12/randomshutofmine">http://acchuang.github.io/blog/2015/06/12/randomshutofmine</a></guid>
-            </item></p>
+         <link><a href="http://acchuang.github.io/blog/2015/06/12/randomshutofmine/">http://acchuang.github.io/blog/2015/06/12/randomshutofmine/</a></link>
+         <pubDate>2015-06-12T21:16:04+08:00</pubDate>
+         <guid><a href="http://acchuang.github.io/blog/2015/06/12/randomshutofmine">http://acchuang.github.io/blog/2015/06/12/randomshutofmine</a></guid>
+         </item></p>
 
-<pre><code>        &lt;item&gt;
-        &lt;title&gt;Octopress Rake command reference&lt;/title&gt;
-        &lt;description&gt;&lt;pre&gt;&lt;code&gt;rake clean&lt;/code&gt;&lt;/pre&gt;
-</code></pre>
+<pre><code>     &lt;item&gt;
+     &lt;title&gt;Octopress Rake command reference&lt;/title&gt;
+     &lt;description&gt;&lt;pre&gt;&lt;code&gt;rake clean&lt;/code&gt;&lt;/pre&gt;
+</code></pre></li>
+</ol>
 
-<p> # Clean out caches: .pygments-cache, .gist-cache, .sass-cache</p>
 
+<p><p> # Clean out caches: .pygments-cache, .gist-cache, .sass-cache</p></p>
 
+<p><pre><code>rake copydot[source,dest]</code></pre></p>
 
+<p><p> # copy dot files for deployment</p></p>
 
-<pre><code>rake copydot[source,dest]</code></pre>
+<p><pre><code>rake deploy </code></pre></p>
 
+<p><p> # Default deploy task</p></p>
 
+<p><pre><code>rake gen_deploy</code></pre></p>
 
+<p><p> # Generate website and deploy</p></p>
 
-<p> # copy dot files for deployment</p>
+<p><pre><code>rake generate </code></pre></p>
 
+<p><p> # Generate jekyll site</p></p>
 
+<p><pre><code>rake install[theme]</code></pre></p>
 
+<p><p> # Initial setup for Octopress: copies the default theme into the path of Jekyll&rsquo;s generator.</p></p>
 
-<pre><code>rake deploy </code></pre>
+<p><pre><code>rake integrate </code></pre></p>
 
+<p><p> # Move all stashed posts back into the posts directory, ready for site generation.</p></p>
 
+<p><pre><code>rake isolate[filename]</code></pre></p>
 
+<p><p> # Move all other posts than the one currently being worked on to a temporary stash location (stas&hellip;</p></p>
 
-<p> # Default deploy task</p>
+<p><pre><code>rake list</code></pre></p>
 
+<p><p> # list tasks</p></p>
 
+<p><pre><code>rake new_page[filename]</code></pre></p>
 
+<p><p> # Create a new page in source/(filename)/index.markdown</p></p>
 
-<pre><code>rake gen_deploy</code></pre>
+<p><pre><code>rake new_post[title]</code></pre></p>
 
+<p><p> # Begin a new post in source/_posts</p></p>
 
+<p><pre><code>rake preview </code></pre></p>
 
+<p><p> # preview the site in a web browser</p></p>
 
-<p> # Generate website and deploy</p>
+<p><pre><code>rake push</code></pre></p>
 
+<p><p> # deploy public directory to github pages</p></p>
 
+<p><pre><code>rake rsync</code></pre></p>
 
+<p><p> # Deploy website via rsync</p></p>
 
-<pre><code>rake generate </code></pre>
+<p><pre><code>rake set_root_dir[dir]</code></pre></p>
 
+<p><p> # Update configurations to support publishing to root or sub directory</p></p>
 
+<p><pre><code>rake setup_github_pages[repo]</code></pre></p>
 
+<p><p> # Set up _deploy folder and deploy branch for Github Pages deployment</p></p>
 
-<p> # Generate jekyll site</p>
+<p><pre><code>rake update_source[theme]</code></pre></p>
 
+<p><p> # Move source to source.old, install source theme updates, replace source/_includes/navigation.ht&hellip;</p></p>
 
+<p><pre><code>rake update_style[theme]</code></pre></p>
 
+<p><p> # Move sass to sass.old, install sass theme updates, replace sass/custom with sass.old/custom</p></p>
 
-<pre><code>rake install[theme]</code></pre>
+<p><pre><code>rake watch</code></pre></p>
 
-
-
-
-<p> # Initial setup for Octopress: copies the default theme into the path of Jekyll&rsquo;s generator.</p>
-
-
-
-
-<pre><code>rake integrate </code></pre>
-
-
-
-
-<p> # Move all stashed posts back into the posts directory, ready for site generation.</p>
-
-
-
-
-<pre><code>rake isolate[filename]</code></pre>
-
-
-
-
-<p> # Move all other posts than the one currently being worked on to a temporary stash location (stas&hellip;</p>
-
-
-
-
-<pre><code>rake list</code></pre>
-
-
-
-
-<p> # list tasks</p>
-
-
-
-
-<pre><code>rake new_page[filename]</code></pre>
-
-
-
-
-<p> # Create a new page in source/(filename)/index.markdown</p>
-
-
-
-
-<pre><code>rake new_post[title]</code></pre>
-
-
-
-
-<p> # Begin a new post in source/_posts</p>
-
-
-
-
-<pre><code>rake preview </code></pre>
-
-
-
-
-<p> # preview the site in a web browser</p>
-
-
-
-
-<pre><code>rake push</code></pre>
-
-
-
-
-<p> # deploy public directory to github pages</p>
-
-
-
-
-<pre><code>rake rsync</code></pre>
-
-
-
-
-<p> # Deploy website via rsync</p>
-
-
-
-
-<pre><code>rake set_root_dir[dir]</code></pre>
-
-
-
-
-<p> # Update configurations to support publishing to root or sub directory</p>
-
-
-
-
-<pre><code>rake setup_github_pages[repo]</code></pre>
-
-
-
-
-<p> # Set up _deploy folder and deploy branch for Github Pages deployment</p>
-
-
-
-
-<pre><code>rake update_source[theme]</code></pre>
-
-
-
-
-<p> # Move source to source.old, install source theme updates, replace source/_includes/navigation.ht&hellip;</p>
-
-
-
-
-<pre><code>rake update_style[theme]</code></pre>
-
-
-
-
-<p> # Move sass to sass.old, install sass theme updates, replace sass/custom with sass.old/custom</p>
-
-
-
-
-<pre><code>rake watch</code></pre>
-
-
-
-
-<p> # Watch the site and regenerate when it changes</p>
-
-
-<p></description>
+<p><p> # Watch the site and regenerate when it changes</p>
+</description>
             <link><a href="http://acchuang.github.io/blog/2015/06/11/octopress-rake-command-reference/">http://acchuang.github.io/blog/2015/06/11/octopress-rake-command-reference/</a></link>
             <pubDate>2015-06-11T15:36:31+08:00</pubDate>
             <guid><a href="http://acchuang.github.io/blog/2015/06/11/octopress-rake-command-reference">http://acchuang.github.io/blog/2015/06/11/octopress-rake-command-reference</a></guid>
@@ -284,12 +180,11 @@
         &lt;description&gt;&lt;h3&gt;Useful tools&lt;/h3&gt;
 </code></pre>
 
-<ul>
+<p><ul>
 <li><a href="http://markdown.tw/#list">Markdown Help in Chinese</a></li>
 <li><a href="http://octopress.org/docs/">Octopress</a></li>
 <li><a href="https://help.github.com/">GitHub</a></li>
-</ul>
-
+</ul></p>
 
 <p></description>
             <link><a href="http://acchuang.github.io/blog/2015/04/24/tools/">http://acchuang.github.io/blog/2015/04/24/tools/</a></link>
@@ -302,10 +197,8 @@
         &lt;description&gt;&lt;h4&gt;Hi this is my first blog post on github using Octopress.&lt;/h4&gt;
 </code></pre>
 
-<p><img src="https://igcdn-photos-h-a.akamaihd.net/hphotos-ak-xfp1/t51.2885-15/10624009_1375509602750423_867715174_n.jpg" alt="Instagram" /></p>
-
-
-<p></description>
+<p><p><img src="https://igcdn-photos-h-a.akamaihd.net/hphotos-ak-xfp1/t51.2885-15/10624009_1375509602750423_867715174_n.jpg" alt="Instagram" /></p>
+</description>
             <link><a href="http://acchuang.github.io/blog/2015/04/22/post-title/">http://acchuang.github.io/blog/2015/04/22/post-title/</a></link>
             <pubDate>2015-04-22T17:00:06+08:00</pubDate>
             <guid><a href="http://acchuang.github.io/blog/2015/04/22/post-title">http://acchuang.github.io/blog/2015/04/22/post-title</a></guid>
@@ -315,9 +208,15 @@
     &lt;/rss&gt;
 </code></pre>
 
-<blockquote><p>原出處:<a href="http://5minutenpause.com/blog/2012/06/08/rss-finally-working-again/">http://5minutenpause.com/blog/2012/06/08/rss-finally-working-again/</a>[<a href="https://gist.githubusercontent.com/5minpause/2896245/raw/rss.xml">https://gist.githubusercontent.com/5minpause/2896245/raw/rss.xml</a>]
-2. Octopress使用的是atom.xml 所以要修改_config.yml中subscribe_rss:&ldquo;/rss.xml&rdquo;
-3. 在Terminal中執行jekyll generate然後就會將Octopress中的文章由atom.xml轉成到public/rss.xml.xml，然後再由Wordpress後台Import rss就可以了！</p></blockquote>
+<p><p></p>
+
+<p>原出處:<a href="http://5minutenpause.com/blog/2012/06/08/rss-finally-working-again/">http://5minutenpause.com/blog/2012/06/08/rss-finally-working-again/</a>[<a href="https://gist.githubusercontent.com/5minpause/2896245/raw/rss.xml">https://gist.githubusercontent.com/5minpause/2896245/raw/rss.xml</a>]<p></p>
+
+<ol>
+<li><p>Octopress使用的是atom.xml 所以要修改_config.yml中subscribe_rss:&ldquo;/rss.xml&rdquo; <p></p></li>
+<li><p>在Terminal中執行jekyll generate然後就會將Octopress中的文章由atom.xml轉成到public/rss.xml.xml，然後再由Wordpress後台Import rss就可以了！</p></li>
+</ol>
+
 </description>
       <link>http://acchuang.github.io/blog/2015/06/18/octopress-to-wordpress/</link>
       <pubDate>2015-06-18T15:09:14+08:00</pubDate>

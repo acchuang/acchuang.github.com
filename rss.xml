@@ -58,8 +58,7 @@
 
 <blockquote><p>原出處:<a href="http://5minutenpause.com/blog/2012/06/08/rss-finally-working-again/">http://5minutenpause.com/blog/2012/06/08/rss-finally-working-again/</a>[<a href="https://gist.githubusercontent.com/5minpause/2896245/raw/rss.xml">https://gist.githubusercontent.com/5minpause/2896245/raw/rss.xml</a>]</p></blockquote>
 
-<p>*2. Octopress使用的是atom.xml 所以要修改_config.yml中
-    subscribe_rss:&ldquo;/rss.xml&rdquo;</p>
+<p>*2. Octopress使用的是atom.xml 所以要修改_config.yml中subscribe_rss:&ldquo;/rss.xml&rdquo;</p>
 
 <p>*3. 在Terminal中執行jekyll generate然後就會將Octopress中的文章由atom.xml轉成到public/rss.xml.xml，然後再由Wordpress後台Import rss就可以了！</description>
             <link><a href="http://acchuang.github.io/blog/2015/06/18/octopress-to-wordpress/">http://acchuang.github.io/blog/2015/06/18/octopress-to-wordpress/</a></link>
@@ -321,8 +320,7 @@
 
 <blockquote><p>原出處:<a href="http://5minutenpause.com/blog/2012/06/08/rss-finally-working-again/">http://5minutenpause.com/blog/2012/06/08/rss-finally-working-again/</a>[<a href="https://gist.githubusercontent.com/5minpause/2896245/raw/rss.xml">https://gist.githubusercontent.com/5minpause/2896245/raw/rss.xml</a>]</p></blockquote>
 
-<p>*2. Octopress使用的是atom.xml 所以要修改_config.yml中
-    subscribe_rss:&ldquo;/rss.xml&rdquo;</p>
+<p>*2. Octopress使用的是atom.xml 所以要修改_config.yml中subscribe_rss:&ldquo;/rss.xml&rdquo;</p>
 
 <p>*3. 在Terminal中執行jekyll generate然後就會將Octopress中的文章由atom.xml轉成到public/rss.xml.xml，然後再由Wordpress後台Import rss就可以了！</p>
 </description>

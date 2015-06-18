@@ -121,19 +121,20 @@
 
 <blockquote><hr />
 
-<h2>layout: nil</h2>
+<h2> layout: nil</h2>
 
-<p>&lt;?xml version=&ldquo;1.0&rdquo; encoding=&ldquo;UTF-8&rdquo;?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
- <channel>
-   &lt;atom:link rel=&ldquo;hub&rdquo; href=&ldquo;<a href="http://pubsubhubbub.appspot.com">http://pubsubhubbub.appspot.com</a>&rdquo; xmlns:atom=&ldquo;<a href="http://www.w3.org/2005/Atom">http://www.w3.org/2005/Atom</a>&rdquo;/>
-   <title>Bit By Bit</title>
-   <generator>Octopress</generator>
-   <link><a href="http://acchuang.github.io">http://acchuang.github.io</a></link></p>
+<p> &lt;?xml version=&ldquo;1.0&rdquo; encoding=&ldquo;UTF-8&rdquo;?>
+ <rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    &lt;atom:link rel=&ldquo;hub&rdquo; href=&ldquo;<a href="http://pubsubhubbub.appspot.com">http://pubsubhubbub.appspot.com</a>&rdquo; xmlns:atom=&ldquo;<a href="http://www.w3.org/2005/Atom">http://www.w3.org/2005/Atom</a>&rdquo;/>
+    <title>Bit By Bit</title>
+    <generator>Octopress</generator>
+    <link><a href="http://acchuang.github.io">http://acchuang.github.io</a></link></p></blockquote>
 
-<p>   <item>
-     <title>Octopress to Wordpress</title>
-     <description>找到一個將Octopress的文章轉移到Wordpress的方法(使用python script)</p></blockquote>
+<pre><code>&lt;item&gt;
+  &lt;title&gt;Octopress to Wordpress&lt;/title&gt;
+  &lt;description&gt;找到一個將Octopress的文章轉移到Wordpress的方法(使用python script)
+</code></pre>
 
 <ol>
 <li>首先新增一rss.xml到source中</li>
@@ -142,52 +143,54 @@
 
 <blockquote><hr />
 
-<h2>layout: nil</h2>
+<h2> layout: nil</h2>
 
-<p>&lt;?xml version=&ldquo;1.0&rdquo; encoding=&ldquo;UTF-8&rdquo;?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
- <channel>
-   &lt;atom:link rel=&ldquo;hub&rdquo; href=&ldquo;<a href="http://pubsubhubbub.appspot.com">http://pubsubhubbub.appspot.com</a>&rdquo; xmlns:atom=&ldquo;<a href="http://www.w3.org/2005/Atom">http://www.w3.org/2005/Atom</a>&rdquo;/>
-   <title>{{ site.title | xml_escape }}</title>
-   <generator>Octopress</generator>
-   <link>{{ site.url }}</link></p>
+<p> &lt;?xml version=&ldquo;1.0&rdquo; encoding=&ldquo;UTF-8&rdquo;?>
+ <rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    &lt;atom:link rel=&ldquo;hub&rdquo; href=&ldquo;<a href="http://pubsubhubbub.appspot.com">http://pubsubhubbub.appspot.com</a>&rdquo; xmlns:atom=&ldquo;<a href="http://www.w3.org/2005/Atom">http://www.w3.org/2005/Atom</a>&rdquo;/>
+    <title>{{ site.title | xml_escape }}</title>
+    <generator>Octopress</generator>
+    <link>{{ site.url }}</link></p></blockquote>
 
-<p>   {% for post in site.posts limit: 20 %}
-   <item>
-     <title>{{ post.title | xml_escape }}</title>
-     <description>{{ post.content | expand_urls: site.url | cdata_escape }}</description>
-     <link>{{ site.url }}{{ post.url }}</link>
-     <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
-     <guid>{{ site.url }}{{ post.id }}</guid>
-   </item>
-   {% endfor %}
- </channel>
-</rss></p></blockquote>
+<pre><code>{% for post in site.posts limit: 20 %}
+&lt;item&gt;
+  &lt;title&gt;{{ post.title | xml_escape }}&lt;/title&gt;
+  &lt;description&gt;{{ post.content | expand_urls: site.url | cdata_escape }}&lt;/description&gt;
+  &lt;link&gt;{{ site.url }}{{ post.url }}&lt;/link&gt;
+  &lt;pubDate&gt;{{ post.date | date_to_xmlschema }}&lt;/pubDate&gt;
+  &lt;guid&gt;{{ site.url }}{{ post.id }}&lt;/guid&gt;
+&lt;/item&gt;
+{% endfor %}
+</code></pre>
+
+<p>  </channel>
+ </rss></p>
 
 <p>原出處:<a href="http://5minutenpause.com/blog/2012/06/08/rss-finally-working-again/">http://5minutenpause.com/blog/2012/06/08/rss-finally-working-again/</a>[<a href="https://gist.githubusercontent.com/5minpause/2896245/raw/rss.xml">https://gist.githubusercontent.com/5minpause/2896245/raw/rss.xml</a>]
 2. Octopress使用的是atom.xml 所以要修改_config.yml中
     subscribe_rss:&ldquo;/rss.xml&rdquo;
-3. 在Terminal中執行jekyll generate然後就會將Octopress中的文章由atom.xml轉成到public/rss.xml.xml，然後再由Wordpress後台Import rss就可以了！</description></p>
+3. 在Terminal中執行jekyll generate然後就會將Octopress中的文章由atom.xml轉成到public/rss.xml.xml，然後再由Wordpress後台Import rss就可以了！</description>
+      <link><a href="http://acchuang.github.io/blog/2015/06/18/octopress-to-wordpress/">http://acchuang.github.io/blog/2015/06/18/octopress-to-wordpress/</a></link>
+      <pubDate>2015-06-18T15:09:14+08:00</pubDate>
+      <guid><a href="http://acchuang.github.io/blog/2015/06/18/octopress-to-wordpress">http://acchuang.github.io/blog/2015/06/18/octopress-to-wordpress</a></guid>
+    </item></p>
 
-<blockquote><pre><code> &lt;link&gt;http://acchuang.github.io/blog/2015/06/18/octopress-to-wordpress/&lt;/link&gt;
- &lt;pubDate&gt;2015-06-18T15:09:14+08:00&lt;/pubDate&gt;
- &lt;guid&gt;http://acchuang.github.io/blog/2015/06/18/octopress-to-wordpress&lt;/guid&gt;
+<pre><code>&lt;item&gt;
+  &lt;title&gt;RandomShotOfMine&lt;/title&gt;
+  &lt;description&gt;&lt;p&gt;&lt;img src="https://c4.staticflickr.com/8/7764/17153934689_b3fc604841_z.jpg" alt="Flickr" /&gt;&lt;/p&gt;
 </code></pre>
 
-<p>   </item></p>
+<p></description>
+      <link><a href="http://acchuang.github.io/blog/2015/06/12/randomshutofmine/">http://acchuang.github.io/blog/2015/06/12/randomshutofmine/</a></link>
+      <pubDate>2015-06-12T21:16:04+08:00</pubDate>
+      <guid><a href="http://acchuang.github.io/blog/2015/06/12/randomshutofmine">http://acchuang.github.io/blog/2015/06/12/randomshutofmine</a></guid>
+    </item></p>
 
-<p>   <item>
-     <title>RandomShotOfMine</title>
-     <description><p><img src="https://c4.staticflickr.com/8/7764/17153934689_b3fc604841_z.jpg" alt="Flickr" /></p>
-</description>
-     <link><a href="http://acchuang.github.io/blog/2015/06/12/randomshutofmine/">http://acchuang.github.io/blog/2015/06/12/randomshutofmine/</a></link>
-     <pubDate>2015-06-12T21:16:04+08:00</pubDate>
-     <guid><a href="http://acchuang.github.io/blog/2015/06/12/randomshutofmine">http://acchuang.github.io/blog/2015/06/12/randomshutofmine</a></guid>
-   </item></p>
-
-<p>   <item>
-     <title>Octopress Rake command reference</title>
-     <description><pre><code>rake clean</code></pre></p></blockquote>
+<pre><code>&lt;item&gt;
+  &lt;title&gt;Octopress Rake command reference&lt;/title&gt;
+  &lt;description&gt;&lt;pre&gt;&lt;code&gt;rake clean&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
 <p> # Clean out caches: .pygments-cache, .gist-cache, .sass-cache</p>
 
@@ -372,27 +375,27 @@
 <p> # Watch the site and regenerate when it changes</p>
 
 
-<p></description></p>
+<p></description>
+      <link><a href="http://acchuang.github.io/blog/2015/06/11/octopress-rake-command-reference/">http://acchuang.github.io/blog/2015/06/11/octopress-rake-command-reference/</a></link>
+      <pubDate>2015-06-11T15:36:31+08:00</pubDate>
+      <guid><a href="http://acchuang.github.io/blog/2015/06/11/octopress-rake-command-reference">http://acchuang.github.io/blog/2015/06/11/octopress-rake-command-reference</a></guid>
+    </item></p>
 
-<blockquote><pre><code> &lt;link&gt;http://acchuang.github.io/blog/2015/06/11/octopress-rake-command-reference/&lt;/link&gt;
- &lt;pubDate&gt;2015-06-11T15:36:31+08:00&lt;/pubDate&gt;
- &lt;guid&gt;http://acchuang.github.io/blog/2015/06/11/octopress-rake-command-reference&lt;/guid&gt;
+<pre><code>&lt;item&gt;
+  &lt;title&gt;Simple Voting System&lt;/title&gt;
+  &lt;description&gt;&lt;p&gt;Simple Voting System [&lt;a href="http://salty-cliffs-4222.herokuapp.com/"&gt;http://salty-cliffs-4222.herokuapp.com/&lt;/a&gt;]&lt;/p&gt;
 </code></pre>
 
-<p>   </item></p>
+<p></description>
+      <link><a href="http://acchuang.github.io/blog/2015/06/11/simple-voting-system/">http://acchuang.github.io/blog/2015/06/11/simple-voting-system/</a></link>
+      <pubDate>2015-06-11T15:09:47+08:00</pubDate>
+      <guid><a href="http://acchuang.github.io/blog/2015/06/11/simple-voting-system">http://acchuang.github.io/blog/2015/06/11/simple-voting-system</a></guid>
+    </item></p>
 
-<p>   <item>
-     <title>Simple Voting System</title>
-     <description><p>Simple Voting System [<a href="http://salty-cliffs-4222.herokuapp.com/"><a href="http://salty-cliffs-4222.herokuapp.com/">http://salty-cliffs-4222.herokuapp.com/</a></a>]</p>
-</description>
-     <link><a href="http://acchuang.github.io/blog/2015/06/11/simple-voting-system/">http://acchuang.github.io/blog/2015/06/11/simple-voting-system/</a></link>
-     <pubDate>2015-06-11T15:09:47+08:00</pubDate>
-     <guid><a href="http://acchuang.github.io/blog/2015/06/11/simple-voting-system">http://acchuang.github.io/blog/2015/06/11/simple-voting-system</a></guid>
-   </item></p>
-
-<p>   <item>
-     <title>tools</title>
-     <description><h3>Useful tools</h3></p></blockquote>
+<pre><code>&lt;item&gt;
+  &lt;title&gt;tools&lt;/title&gt;
+  &lt;description&gt;&lt;h3&gt;Useful tools&lt;/h3&gt;
+</code></pre>
 
 <ul>
 <li><a href="http://markdown.tw/#list">Markdown Help in Chinese</a></li>
@@ -401,33 +404,28 @@
 </ul>
 
 
-<p></description></p>
+<p></description>
+      <link><a href="http://acchuang.github.io/blog/2015/04/24/tools/">http://acchuang.github.io/blog/2015/04/24/tools/</a></link>
+      <pubDate>2015-04-24T16:49:16+08:00</pubDate>
+      <guid><a href="http://acchuang.github.io/blog/2015/04/24/tools">http://acchuang.github.io/blog/2015/04/24/tools</a></guid>
+    </item></p>
 
-<blockquote><pre><code> &lt;link&gt;http://acchuang.github.io/blog/2015/04/24/tools/&lt;/link&gt;
- &lt;pubDate&gt;2015-04-24T16:49:16+08:00&lt;/pubDate&gt;
- &lt;guid&gt;http://acchuang.github.io/blog/2015/04/24/tools&lt;/guid&gt;
+<pre><code>&lt;item&gt;
+  &lt;title&gt;Hello World&lt;/title&gt;
+  &lt;description&gt;&lt;h4&gt;Hi this is my first blog post on github using Octopress.&lt;/h4&gt;
 </code></pre>
-
-<p>   </item></p>
-
-<p>   <item>
-     <title>Hello World</title>
-     <description><h4>Hi this is my first blog post on github using Octopress.</h4></p></blockquote>
 
 <p><img src="https://igcdn-photos-h-a.akamaihd.net/hphotos-ak-xfp1/t51.2885-15/10624009_1375509602750423_867715174_n.jpg" alt="Instagram" /></p>
 
 
-<p></description></p>
+<p></description>
+      <link><a href="http://acchuang.github.io/blog/2015/04/22/post-title/">http://acchuang.github.io/blog/2015/04/22/post-title/</a></link>
+      <pubDate>2015-04-22T17:00:06+08:00</pubDate>
+      <guid><a href="http://acchuang.github.io/blog/2015/04/22/post-title">http://acchuang.github.io/blog/2015/04/22/post-title</a></guid>
+    </item></p>
 
-<blockquote><pre><code> &lt;link&gt;http://acchuang.github.io/blog/2015/04/22/post-title/&lt;/link&gt;
- &lt;pubDate&gt;2015-04-22T17:00:06+08:00&lt;/pubDate&gt;
- &lt;guid&gt;http://acchuang.github.io/blog/2015/04/22/post-title&lt;/guid&gt;
-</code></pre>
-
-<p>   </item></p>
-
-<p> </channel>
-</rss></p></blockquote>
+<p>  </channel>
+ </rss></p>
 
 <p>原出處:<a href="http://5minutenpause.com/blog/2012/06/08/rss-finally-working-again/">http://5minutenpause.com/blog/2012/06/08/rss-finally-working-again/</a>[<a href="https://gist.githubusercontent.com/5minpause/2896245/raw/rss.xml">https://gist.githubusercontent.com/5minpause/2896245/raw/rss.xml</a>]
 2. Octopress使用的是atom.xml 所以要修改_config.yml中

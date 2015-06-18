@@ -4,7 +4,7 @@
   <title><![CDATA[Bit By Bit]]></title>
   <link href="http://acchuang.github.io/atom.xml" rel="self"/>
   <link href="http://acchuang.github.io/"/>
-  <updated>2015-06-18T16:10:12+08:00</updated>
+  <updated>2015-06-18T16:11:34+08:00</updated>
   <id>http://acchuang.github.io/</id>
   <author>
     <name><![CDATA[Alan Huang]]></name>
@@ -51,10 +51,10 @@ layout: nil
 </code></pre></noscript></div>
 
 
-<p>原出處:<a href="http://5minutenpause.com/blog/2012/06/08/rss-finally-working-again/">http://5minutenpause.com/blog/2012/06/08/rss-finally-working-again/</a><p></p>
+<p>原出處:<a href="http://5minutenpause.com/blog/2012/06/08/rss-finally-working-again/">http://5minutenpause.com/blog/2012/06/08/rss-finally-working-again/</a></p>
 
 <ol>
-<li><p>Octopress使用的是atom.xml 所以要修改_config.yml中subscribe_rss:&ldquo;/rss.xml&rdquo; <p></p></li>
+<li><p>Octopress使用的是atom.xml 所以要修改_config.yml中subscribe_rss:&ldquo;/rss.xml&rdquo;</p></li>
 <li><p>在Terminal中執行jekyll generate然後就會將Octopress中的文章由atom.xml轉成到public/rss.xml.xml，然後再由Wordpress後台Import rss就可以了！</p></li>
 </ol>
 

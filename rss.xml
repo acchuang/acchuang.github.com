@@ -8,6 +8,31 @@
  
     
     <item>
+      <title>Add Disqus to Octopress</title>
+      <description><p>如何在Octopress中使用Disqus</p>
+
+<ol>
+<li><p>建立Disqus帳號
+到Disqus[<a href="http://disqus.com">http://disqus.com</a>]建立一組帳號，並記住此帳號名稱因為在Octopress中3rd Party plugin會需要這組shortname。</p></li>
+<li><p>把Disqus加到建好的部落格中
+使用Add Disqus to your site，建立unique的網站URL並填妥相關訊息。</p></li>
+<li><p>編輯_config.yml內
+ #Disqus Comments
+ disqus_short_name: &ldquo;Disqus帳號名稱&rdquo;
+ disqus_show_comment_count: true</p></li>
+<li>rake generate
+rake deploy 完成！！</li>
+</ol>
+
+
+<p>參考來源:Installing Disqus on Octopress[<a href="https://eager.io/blog/installing-disqus-on-octopress/">https://eager.io/blog/installing-disqus-on-octopress/</a>]</p>
+</description>
+      <link>http://acchuang.github.io/blog/2015/06/25/add-disqus-to-octopress/</link>
+      <pubDate>2015-06-25T13:45:48+08:00</pubDate>
+      <guid>http://acchuang.github.io/blog/2015/06/25/add-disqus-to-octopress</guid>
+    </item>
+    
+    <item>
       <title>Octopress to Wordpress</title>
       <description><p>發現一個將Octopress的文章轉移到Wordpress的方法(使用python script)</p>
 

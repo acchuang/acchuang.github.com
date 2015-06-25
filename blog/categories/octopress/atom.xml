@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Octopress | Bit By Bit]]></title>
   <link href="http://acchuang.github.io/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://acchuang.github.io/"/>
-  <updated>2015-06-25T13:57:53+08:00</updated>
+  <updated>2015-06-25T14:48:54+08:00</updated>
   <id>http://acchuang.github.io/</id>
   <author>
     <name><![CDATA[Alan Huang]]></name>
@@ -12,6 +12,31 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Add Disqus to Octopress]]></title>
+    <link href="http://acchuang.github.io/blog/2015/06/25/add-disqus-to-octopress/"/>
+    <updated>2015-06-25T13:45:48+08:00</updated>
+    <id>http://acchuang.github.io/blog/2015/06/25/add-disqus-to-octopress</id>
+    <content type="html"><![CDATA[<p>如何在Octopress中使用Disqus</p>
+
+<ol>
+<li><p>建立Disqus帳號<br>
+到Disqus[<a href="http://disqus.com">http://disqus.com</a>]建立一組帳號，並記住此帳號名稱因為在Octopress中3rd Party plugin會需要這組shortname。</p></li>
+<li><p>把Disqus加到建好的部落格中<br>
+使用Add Disqus to your site，建立unique的網站URL並填妥相關訊息。</p></li>
+<li><p>編輯_config.yml內<br>
+ #Disqus Comments<br>
+ disqus_short_name: &ldquo;Disqus帳號名稱&rdquo;<br>
+ disqus_show_comment_count: true</p></li>
+<li><p>rake generate<br>
+rake deploy 完成！！</p></li>
+</ol>
+
+
+<p>參考來源:Installing Disqus on Octopress[<a href="https://eager.io/blog/installing-disqus-on-octopress/">https://eager.io/blog/installing-disqus-on-octopress/</a>]</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Octopress to Wordpress]]></title>

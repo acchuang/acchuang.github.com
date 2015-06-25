@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Octopress | Bit By Bit]]></title>
   <link href="http://acchuang.github.io/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://acchuang.github.io/"/>
-  <updated>2015-06-25T14:48:54+08:00</updated>
+  <updated>2015-06-25T17:15:02+08:00</updated>
   <id>http://acchuang.github.io/</id>
   <author>
     <name><![CDATA[Alan Huang]]></name>
@@ -43,7 +43,7 @@ rake deploy 完成！！</p></li>
     <link href="http://acchuang.github.io/blog/2015/06/18/octopress-to-wordpress/"/>
     <updated>2015-06-18T15:09:14+08:00</updated>
     <id>http://acchuang.github.io/blog/2015/06/18/octopress-to-wordpress</id>
-    <content type="html"><![CDATA[<p>發現一個將Octopress的文章轉移到Wordpress的方法(使用python script)</p>
+    <content type="html"><![CDATA[<p>將Octopress的文章轉移到Wordpress的方法(使用python script)</p>
 
 <p>首先參考並新增一 rss.xml到source中(修改Line 7: href=&ldquo;自己的Octopress 網址&rdquo;)
 <div><script src='https://gist.github.com/2896245.js?file=rss.xml'></script>

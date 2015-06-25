@@ -34,7 +34,7 @@ rake deploy 完成！！</p></li>
     
     <item>
       <title>Octopress to Wordpress</title>
-      <description><p>發現一個將Octopress的文章轉移到Wordpress的方法(使用python script)</p>
+      <description><p>將Octopress的文章轉移到Wordpress的方法(使用python script)</p>
 
 <p>首先參考並新增一 rss.xml到source中(修改Line 7: href=&ldquo;自己的Octopress 網址&rdquo;)</p>
 

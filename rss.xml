@@ -48,6 +48,8 @@
 <p><code>$speedtest-cli &ndash;server SERVER</code> &ndash;> 使用某選擇之伺服器(SERVER)做速度測試<br></p>
 
 <p><cdoe>$speedtest</cdoe> &ndash;> 進行自動選擇最近伺服器做速度測試</p>
+
+<p>來源: Speedtest-cli [<a href="https://github.com/sivel/speedtest-cli">https://github.com/sivel/speedtest-cli</a>]</p>
 </description>
       <link>http://acchuang.github.io/blog/2015/06/30/use-speedtest-cli/</link>
       <pubDate>2015-06-30T16:51:27+08:00</pubDate>

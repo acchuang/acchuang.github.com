@@ -4,7 +4,7 @@
   <title><![CDATA[Bit By Bit]]></title>
   <link href="http://acchuang.github.io/atom.xml" rel="self"/>
   <link href="http://acchuang.github.io/"/>
-  <updated>2015-06-30T17:16:12+08:00</updated>
+  <updated>2015-06-30T17:18:19+08:00</updated>
   <id>http://acchuang.github.io/</id>
   <author>
     <name><![CDATA[Alan Huang]]></name>
@@ -57,6 +57,8 @@
 <p><code>$speedtest-cli &ndash;server SERVER</code> &ndash;> 使用某選擇之伺服器(SERVER)做速度測試<br></p>
 
 <p><cdoe>$speedtest</cdoe> &ndash;> 進行自動選擇最近伺服器做速度測試</p>
+
+<p>來源: Speedtest-cli [<a href="https://github.com/sivel/speedtest-cli">https://github.com/sivel/speedtest-cli</a>]</p>
 ]]></content>
   </entry>
   

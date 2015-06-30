@@ -42,13 +42,13 @@
 
 <h4>使用方式:<br></h4>
 
+<p><cdoe>$speedtest</cdoe> &ndash;> 直接進行自動選擇最近伺服器做速度測試</p>
+
 <p><code>$speedtest-cli -h</code> &ndash;> 開啟speedtest-cli的help<br></p>
 
 <p><code>$speedtest-cli &ndash;list</code> &ndash;> 列出依距離(近至遠)的測試伺服器名稱<br></p>
 
 <p><code>$speedtest-cli &ndash;server SERVER</code> &ndash;> 使用某選擇之伺服器(SERVER)做速度測試<br></p>
-
-<p><cdoe>$speedtest</cdoe> &ndash;> 進行自動選擇最近伺服器做速度測試</p>
 
 <p>來源: Speedtest-cli [<a href="https://github.com/sivel/speedtest-cli">https://github.com/sivel/speedtest-cli</a>]</p>
 </description>

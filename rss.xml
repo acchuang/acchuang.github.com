@@ -8,6 +8,56 @@
  
     
     <item>
+      <title>Use Speedtest cli</title>
+      <description><p>用command line直接在Termail 下使用Speedtest測試網路速度</p>
+
+<p>如何安裝<br>
+1. 使用pip/easy_install</p>
+
+<p>pip install speedtest-cli
+或
+easy_install speedtest-cli</p>
+
+<ol>
+<li>使用Github<br></li>
+</ol>
+
+
+<p>pip install git+<a href="https://github.com/sivel/speedtest-cli.git">https://github.com/sivel/speedtest-cli.git</a></p>
+
+<p>或</p>
+
+<p>git clone <a href="https://github.com/sivel/speedtest-cli.git">https://github.com/sivel/speedtest-cli.git</a>
+python speedtest-cli/setup.py install</p>
+
+<ol>
+<li>直接下載<br></li>
+</ol>
+
+
+<p>wget -0 speedtest-cli <a href="https://raw.githubustercontent.com/sivel/speedtest-cli/master/speedtest_cli.py">https://raw.githubustercontent.com/sivel/speedtest-cli/master/speedtest_cli.py</a>
+chomd +x speedtest-cli</p>
+
+<p>或</p>
+
+<p>curl -Lo speedtest-cli <a href="https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest_cli.py">https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest_cli.py</a>
+chomd +x speedtest-cli</p>
+
+<p>使用方式:<br>
+$speedtest-cli -h &ndash;> 開啟speedtest-cli的help<br></p>
+
+<p>$speedtest-cli &ndash;list &ndash;> 列出依距離(近至遠)的測試伺服器名稱<br></p>
+
+<p>$speedtest-cli &ndash;server SERVER &ndash;> 使用某選擇之伺服器(SERVER)做速度測試<br></p>
+
+<p>$speedtest &ndash;> 進行自動選擇最近伺服器做速度測試</p>
+</description>
+      <link>http://acchuang.github.io/blog/2015/06/30/use-speedtest-cli/</link>
+      <pubDate>2015-06-30T16:51:27+08:00</pubDate>
+      <guid>http://acchuang.github.io/blog/2015/06/30/use-speedtest-cli</guid>
+    </item>
+    
+    <item>
       <title>Add Disqus to Octopress</title>
       <description><p>如何在Octopress中使用Disqus</p>
 

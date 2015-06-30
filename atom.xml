@@ -4,7 +4,7 @@
   <title><![CDATA[Bit By Bit]]></title>
   <link href="http://acchuang.github.io/atom.xml" rel="self"/>
   <link href="http://acchuang.github.io/"/>
-  <updated>2015-06-30T17:11:43+08:00</updated>
+  <updated>2015-06-30T17:13:14+08:00</updated>
   <id>http://acchuang.github.io/</id>
   <author>
     <name><![CDATA[Alan Huang]]></name>
@@ -21,9 +21,8 @@
     <content type="html"><![CDATA[<p>用command line直接在Termail 下使用Speedtest測試網路速度</p>
 
 <p>如何安裝<br>
-1. 使用pip/easy_install</p>
-
-<p><code>pip install speedtest-cli</code>
+1. 使用pip/easy_install
+<code>pip install speedtest-cli</code>
 或
 <code>easy_install speedtest-cli</code></p>
 
@@ -32,11 +31,9 @@
 </ol>
 
 
-<p><code>pip install git+<a href="https://github.com/sivel/speedtest-cli.git">https://github.com/sivel/speedtest-cli.git</a></code></p>
-
-<p>或</p>
-
-<p><code>git clone <a href="https://github.com/sivel/speedtest-cli.git">https://github.com/sivel/speedtest-cli.git</a></code>
+<p><code>pip install git+<a href="https://github.com/sivel/speedtest-cli.git">https://github.com/sivel/speedtest-cli.git</a></code>
+或
+<code>git clone <a href="https://github.com/sivel/speedtest-cli.git">https://github.com/sivel/speedtest-cli.git</a></code>
 <code>python speedtest-cli/setup.py install</code></p>
 
 <ol>
@@ -45,11 +42,9 @@
 
 
 <p><code>wget -0 speedtest-cli <a href="https://raw.githubustercontent.com/sivel/speedtest-cli/master/speedtest_cli.py">https://raw.githubustercontent.com/sivel/speedtest-cli/master/speedtest_cli.py</a></code>
-<code>chomd +x speedtest-cli</code></p>
-
-<p>或</p>
-
-<p><code>curl -Lo speedtest-cli <a href="https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest_cli.py">https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest_cli.py</a></code>
+<code>chomd +x speedtest-cli</code>
+或
+<code>curl -Lo speedtest-cli <a href="https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest_cli.py">https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest_cli.py</a></code>
 <cdoe>chomd +x speedtest-cli</cdoe></p>
 
 <p>使用方式:<br>
